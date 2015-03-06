@@ -1,3 +1,44 @@
+### I had too many issues syncing this bloody fork so making notes for posterity !!!
+Refer https://github.com/GarageGames/Torque2D/wiki/Cloning-the-repo-and-working-with-Git 
+
+* git clone https://github.com/jderik/ExData_Plotting1
+* CD ExData_Plotting1
+
+#### Check remotes using 
+
+*  **git remote -v**
+
+#### Output
+  *   _origin  https://github.com/jderik/ExData_Plotting1 (fetch)_
+  *   _origin  https://github.com/jderik/ExData_Plotting1 (fetch)_
+
+#### Add the remote upstream which is the original repo
+
+* git remote add upstream https://github.com/rdpeng/ExData_Plotting1.git
+
+#### Check remotes again and output is below
+
+  *  _$ git remote -v_
+  *  _origin  https://github.com/jderik/ExData_Plotting1 (fetch)_
+  *  _origin  https://github.com/jderik/ExData_Plotting1 (push)_
+  *  _upstream        https://github.com/rdpeng/ExData_Plotting1.git (fetch)_
+  *  _upstream        https://github.com/rdpeng/ExData_Plotting1.git (push)_
+
+#### F0llow usual update process
+
+* git add .
+* git commit -m "20150307"
+* git status
+* git push origin master
+ 
+
+
+
+
+
+
+
+
 ## Introduction
 
 This assignment uses data from
